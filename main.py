@@ -8,8 +8,10 @@ def show_time():
 
 root = tk.Tk()
 root.title("Click me to show time")
-button = tk.Button(root, text="Click me!", command=show_time)
+button1 = tk.Button(root, text="qingli!", command=show_time)
+button = tk.Button(root, text="time!", command=show_time)
 button.pack()
+button1.pack()
 
 root.mainloop()
 import psutil
